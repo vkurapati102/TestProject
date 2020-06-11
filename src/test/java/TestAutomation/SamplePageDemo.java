@@ -22,11 +22,11 @@ public class SamplePageDemo {
 
         WebElement textBoxToEnter = driver.findElement(By.xpath("//*[@id=\"fname\"]"));
         textBoxToEnter.isDisplayed();
-        textBoxToEnter.sendKeys("Ram");
+        textBoxToEnter.sendKeys("Ratna");
 
-        WebElement toSubmit = driver.findElement(By.id("idOfButton"));
-        toSubmit.isDisplayed();
-        toSubmit.click();
+//        WebElement toSubmit = driver.findElement(By.id("idOfButton"));
+//        toSubmit.isDisplayed();
+//        toSubmit.click();s
 
         WebElement radioButton = driver.findElement(By.id("male"));
         radioButton.isDisplayed();
